@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='ja'>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUN</title>
+    <style>
+        * {
+          background-color: white;
+          margin: 0;
+        }
+        #canvas-container {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          width: min(100vh, 100vw, 500px);
+          height: min(100vh, 100vw, 500px);
+        }
+    </style>
+
+  </head>
+  <body>
+    <div id="canvas-container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
